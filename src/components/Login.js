@@ -1,8 +1,6 @@
 import Header from "./Header";
 import { useEffect, useRef, useState } from "react";
 import { formValidation } from "../utils/FormValidation";
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../utils/Firbase";
 import axios from "axios";
 
 
